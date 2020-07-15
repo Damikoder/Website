@@ -1,0 +1,18 @@
+{% extends "shop/base.html" %}
+{% load static %}
+{% block title %}
+  {{ product.name }}
+{% endblock %}
+{% block content %}
+<table>
+  <tr>
+   <td>
+     <p align="center"><img border="10" bordercolor="#FFFF00" width="100" heighth="25" src="{% static 'mainApp/image/telep.png' %}" class="img-thumbnail"></p><p align="center"><i style="color:#FAEBD7"><b>  &#9990;&nbsp; &nbsp; Контактный номер: </b>8(707)766-65-79</i></p>
+     <p align="center"><img border="10" bordercolor="#FFFF00" width="100" heighth="25" src="{% static 'mainApp/image/wpp.png' %}" class="img-thumbnail"></p><p align="center"><i style="color:#FAEBD7"><b>  &nbsp; &nbsp; Whatsapp: </b>8(707)766-65-79</i></p>
+     <p align="center"><img border="10" bordercolor="#FFFF00" width="100" heighth="25" src="{% static 'mainApp/image/email.png' %}" class="img-thumbnail"></p><p align="center"><i style="color:#FAEBD7"><b>  &nbsp; &nbsp;E-mail: </b>adilautokz@gmail.com</i></p>
+   </td><td></td>
+   <td>
+    <h2 align="center"><i style="color:#FAEBD7"><b> Адрес: </b></i></h2>
+    <p style="color:#FFFFE0">Республика Казахстан, г.Алматы, улица Капчагайская, 28</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2234.4700248841873!2d76.88239914984636!3d43.2748851849427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836bc5b02bf229%3A0x396df63cecfe571!2z0JrQsNC_0YfQsNCz0LDQudGB0LrQsNGPINGD0LvQuNGG0LAsINCQ0LvQvNCw0YLRiw!5e1!3m2!1sru!2skz!4v1594406035346!5m2!1sru!2skz" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends "mainApp/includes/main.html" %}
+
+{% block content %}
+<body>
+	<h1 align="center" style="color:#FAEBD7"><b> Вход </b></h1>
+	<form method="post" class="form-group" style="color:#FAEBD7" align="center">
+		{% csrf_token %}
+		{{form}}
+		<button type='submit' class="btn btn-success">Вход</button>
+		<p>У вас нет аккаунта? Создать сейчас <a href="/register"> Создать </a></p>
+	</form>
+</body>
+
+{% endblock %}
